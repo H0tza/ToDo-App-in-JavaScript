@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50% auto;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 25px;
+    color: white;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.section-two {
+    padding: 10px 0;
+    background-color: white;
+    padding-bottom: 10px;
+    min-height: 275px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#text {
+    font-size: 18px;
+    border: none;
+    margin-left: 13px;
+    margin-right: 13px;
+    flex-grow: 1;
+}
+
+#button {
+    height: 35px;
+    width: 55px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    margin-right: 13px;
+    box-shadow: 0px 2px 2px rgba(41, 41, 41, 0.726);
+}
+
+#button:hover {
+    margin-top: 3spx;
+    box-shadow: none;
+}
+
+input {
+    display: inline;
+    margin: 0 auto;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+.task-placeholder {
+    display: none;
+    margin-top: 125px;
+    text-align: center;
+    color: rgba(0, 0, 0, .57);
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+    padding: 1px 5px;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li img {
+    margin-left: auto;
+}
